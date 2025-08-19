@@ -7,9 +7,9 @@ services:
     startCommand: npm start   # Change to your start command if different
     envVars:
       - key: SESSION-ID
-        sync: false
+        sync: true
       - key: OWNER
-        sync: false
+        sync: true
       - key: OWNER-NUMBER
         sync: false
         
